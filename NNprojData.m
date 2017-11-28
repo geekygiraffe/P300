@@ -1,3 +1,4 @@
+function [answer] = mcdonnell_ERPspelling
 %% P300 spelling project BIME 6259
 
 % generate NN funtion from training data then run the testing data throught
@@ -7,7 +8,6 @@
 
 clear;close
 %cd '/Volumes/HOME/SMILPhD/6250SignalProcessing/code'
-
 %cd 'U:\SMILPhD\6250SignalProcessing\code'
 
 
@@ -68,3 +68,4 @@ for i = 1:size(letter,2)
 end
 
 answer = spell
+end
